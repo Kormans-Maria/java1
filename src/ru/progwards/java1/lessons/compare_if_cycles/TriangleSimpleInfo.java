@@ -21,4 +21,8 @@ public class TriangleSimpleInfo {
                 return c;
 
     }
+
+    public static boolean isIsoscelesTriangle(int a, int b, int c){
+        return true;
+    }
 }
