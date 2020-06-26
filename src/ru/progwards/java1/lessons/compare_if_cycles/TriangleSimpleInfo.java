@@ -22,7 +22,10 @@ public class TriangleSimpleInfo {
 
     }
 
-    public static boolean isIsoscelesTriangle(int a, int b, int c){
-        return true;
+    public static boolean isEquilateralTriangle(int a, int b, int c){
+        if ((a == b) && (b == c))
+            return true;
+            else
+                return false;
     }
 }
